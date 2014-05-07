@@ -79,6 +79,7 @@ header.answeringMachine img{
 @media (max-width: 600px) {
   .message p{
     font-size:21px;
+    text-align:left;
   }
 }
 
