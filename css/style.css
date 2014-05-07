@@ -28,7 +28,7 @@
 body{
     margin:0 0;
     min-width:320px;
-    background:#FFE4F4;
+    background:#DBF5FF;
 }
 
 .main{
@@ -43,7 +43,7 @@ body{
 
 .messageContainer{
     padding:5%;
-    background-color:#FFFCEF;
+    background-color:#FDFDFD;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
