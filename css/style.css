@@ -28,11 +28,29 @@
 body{
     margin:0 0;
     min-width:320px;
+    background:#FFE4F4;
 }
 
 .main{
-	margin: 0 auto;
+    margin-right:auto;
+	margin-left:auto;
     max-width:900px;
+    padding-top:10%;
+    padding-left:5%;
+    padding-right:5%;
+
+}
+
+.messageContainer{
+    padding:5%;
+    background-color:#E6E5E5;
+    border:1px solid #979797;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(183, 183, 183, 0.75);
+-moz-box-shadow:    0px 0px 30px 0px rgba(183, 183, 183, 0.75);
+box-shadow:         0px 0px 30px 0px rgba(183, 183, 183, 0.75);
 
 }
 
@@ -47,17 +65,15 @@ header.answeringMachine img{
 }
 
 .message{
-    width:80%;
-    margin:0 auto;
 }
 
 .message p{
-    font-size: 24px;
+    font-size: 23px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     text-align:justify;
     color:#333;
-    line-height: 1.5em;
+    line-height: 1.4em;
 } 
 
 @media (max-width: 600px) {
@@ -73,9 +89,12 @@ header.answeringMachine img{
 }
 
 .message a{
-    text-decoration: underline;
-    color: #E100FF;
-    
+    text-decoration:none;
+    color: #CA0392;
+}
+
+.message a:hover{
+    text-decoration: underline;    
 }
 
 .message b{
@@ -89,5 +108,4 @@ header.answeringMachine img{
 .EtsyLogo{
     font-family:georgia;
     color:#D15600;
-    font-size:26px;
 }
