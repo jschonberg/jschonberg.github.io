@@ -1,5 +1,5 @@
 /****FONTS****/
-@font-face {
+/*@font-face {
     font-family: 'corbertregular';
     src: url('Corbert-Regular-webfont.eot');
     src: url('Corbert-Regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -21,15 +21,19 @@
     font-weight: normal;
     font-style: normal;
 
-}
+}*/
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300italic,400,600);
 
 body{
     margin:0 0;
+        min-width:480px;
 }
 
 .main{
 	margin: 0 auto;
     max-width:900px;
+
 }
 
 header.answeringMachine img{
@@ -39,7 +43,6 @@ header.answeringMachine img{
 }
 
 .answeringMachine{
-    max-width: 900px;
     margin:0 auto;
 }
 
@@ -49,10 +52,19 @@ header.answeringMachine img{
 }
 
 .message p{
-	font-family: corbertregular;
-	font-size: 24px;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
     text-align:justify;
+    color:#333;
+    line-height: 1.5em;
 } 
+
+@media (max-width: 600px) {
+  .message p{
+    font-size:21px;
+  }
+}
 
 .message a{
     text-decoration: underline;
@@ -60,9 +72,12 @@ header.answeringMachine img{
     
 }
 
-.message .beep{
-    font-family:corbertitalic;
-    font-size:24px;
+.message b{
+    font-weight:400;
+}
+
+.message i{
+    font-style:italic;
 }
 
 .EtsyLogo{
