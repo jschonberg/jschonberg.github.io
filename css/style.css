@@ -43,14 +43,13 @@ body{
 
 .messageContainer{
     padding:5%;
-    background-color:#E6E5E5;
-    border:1px solid #979797;
+    background-color:#FFFCEF;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-    -webkit-box-shadow: 0px 0px 30px 0px rgba(183, 183, 183, 0.75);
-    -moz-box-shadow:    0px 0px 30px 0px rgba(183, 183, 183, 0.75);
-    box-shadow:         0px 0px 30px 0px rgba(183, 183, 183, 0.75);
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(255, 255, 255, 0.75);
+    box-shadow:         0px 0px 30px 0px rgba(255, 255, 255, 0.75);
 
 }
 
@@ -109,4 +108,8 @@ header.answeringMachine img{
 .EtsyLogo{
     font-family:georgia;
     color:#D15600;
+}
+
+.message .spacer{
+    display:block;
 }
