@@ -27,7 +27,7 @@
 
 body{
     margin:0 0;
-        min-width:480px;
+    min-width:320px;
 }
 
 .main{
@@ -63,6 +63,12 @@ header.answeringMachine img{
 @media (max-width: 600px) {
   .message p{
     font-size:21px;
+  }
+}
+
+@media (max-width: 320px) {
+  .message p{
+    font-size:18px;
   }
 }
 
