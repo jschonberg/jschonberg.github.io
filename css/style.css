@@ -34,7 +34,7 @@ body{
 .main{
     margin-right:auto;
 	margin-left:auto;
-    max-width:900px;
+    max-width:700px;
     padding-top:10%;
     padding-left:5%;
     padding-right:5%;
@@ -49,8 +49,8 @@ body{
     -moz-border-radius: 8px;
     border-radius: 8px;
     -webkit-box-shadow: 0px 0px 30px 0px rgba(183, 183, 183, 0.75);
--moz-box-shadow:    0px 0px 30px 0px rgba(183, 183, 183, 0.75);
-box-shadow:         0px 0px 30px 0px rgba(183, 183, 183, 0.75);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(183, 183, 183, 0.75);
+    box-shadow:         0px 0px 30px 0px rgba(183, 183, 183, 0.75);
 
 }
 
