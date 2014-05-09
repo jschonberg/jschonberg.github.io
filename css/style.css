@@ -40,7 +40,6 @@ body{
     left:0;
     width: 60%;
     height: 70%;
-    min-width: 320px;
     max-width: 600px;
     padding: 10px;
     overflow: auto;
