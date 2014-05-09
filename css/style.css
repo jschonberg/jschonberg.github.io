@@ -32,25 +32,22 @@ body{
 }
 
 .main{
-    margin-right:auto;
-	margin-left:auto;
-    max-width:700px;
-    padding-top:10%;
-    padding-left:5%;
-    padding-right:5%;
+    position:absolute;
+    margin:auto;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    width: 60%;
+    height: 70%;
+    min-width: 320px;
+    max-width: 600px;
+    padding: 10px;
+    overflow: auto;
 
 }
 
 .messageContainer{
-    padding:5%;
-    background-color:#FDFDFD;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    -webkit-box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.75);
-    -moz-box-shadow:    0px 0px 30px 0px rgba(255, 255, 255, 0.75);
-    box-shadow:         0px 0px 30px 0px rgba(255, 255, 255, 0.75);
-
 }
 
 header.answeringMachine img{
@@ -63,28 +60,24 @@ header.answeringMachine img{
     margin:0 auto;
 }
 
-.message{
-}
-
 .message p{
     font-size: 23px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     text-align:justify;
-    color:#333;
+    color:#555;
     line-height: 1.4em;
 } 
 
 @media (max-width: 600px) {
   .message p{
     font-size:21px;
-    text-align:left;
   }
 }
 
 @media (max-width: 320px) {
   .message p{
-    font-size:18px;
+    font-size:16px;
   }
 }
 
@@ -98,7 +91,7 @@ header.answeringMachine img{
 }
 
 .message b{
-    font-weight:400;
+    font-weight:600;
 }
 
 .message i{
@@ -111,5 +104,8 @@ header.answeringMachine img{
 }
 
 .message .spacer{
+    font-size:1.3em;
     display:block;
+    text-align: center;
+    padding-bottom:0px;
 }
